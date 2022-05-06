@@ -1,0 +1,911 @@
+CRITICAL - 2022-05-05 07:48:10 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:49:08 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:49:13 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:49:13 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:49:19 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:37 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:39 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:39 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:39 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:40 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:40 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:40 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:40 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:40 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:41 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:41 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:42 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:42 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:43 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:43 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 07:55:43 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:04:29 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:23 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:53 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:54 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:54 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:54 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:54 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:55 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:55 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:06:55 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:07:08 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:07:52 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:07:56 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:08:24 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:08:32 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:08:32 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:08:33 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:08:33 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:08:33 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:12:13 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:12:28 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:13:09 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:13:47 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:14:41 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:01 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:01 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:02 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:02 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:02 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:02 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:02 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:02 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:03 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:03 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:03 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:03 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:03 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:03 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:04 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:04 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:04 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:04 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:05 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:06 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:18 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:19 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:19 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:19 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:20 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:17:20 --> Undefined property: App\Controllers\Users::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Users->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:20:12 --> Undefined property: App\Controllers\UsersController::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\UsersController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\UsersController->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:32:27 --> Undefined property: App\Controllers\UsersController::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\UsersController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\UsersController->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:32:34 --> Undefined property: App\Controllers\UsersController::$http_response_code
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\UsersController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\UsersController->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 08:52:56 --> Undefined variable $password
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\UsersController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\UsersController->login()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 15:10:34 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:10:34 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 52
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(52): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:11:24 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:12:01 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:12:12 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:12:32 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:12:40 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:12:51 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:13:40 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:13:40 --> Call to undefined function App\Models\pirnt_r()
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 15:13:42 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:13:42 --> Call to undefined function App\Models\pirnt_r()
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 15:14:02 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:14:28 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:14:28 --> Call to undefined function App\Models\pirnt_r()
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 15:14:49 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:15:08 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:15:37 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:15:57 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:16:29 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:16:42 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:17:51 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:18:15 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:18:15 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 52
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(52): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:18:24 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:18:24 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 52
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(52): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:18:55 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:19:16 --> Table 'app_order_db.shopping_cart' doesn't exist
+ERROR - 2022-05-05 15:22:35 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:22:35 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:24:41 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:24:41 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:25:36 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:25:36 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:25:40 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:25:40 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:25:47 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:25:47 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:26:10 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:26:10 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:26:17 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:26:17 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-05 15:26:25 --> Table 'app_order_db.shopping_cart' doesn't exist
+CRITICAL - 2022-05-05 15:26:25 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-05 15:27:49 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-05 15:27:52 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-05 15:36:26 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-05 15:36:38 --> CodeIgniter\Database\BaseBuilder::insert(): Argument #1 ($set) must be of type ?array, stdClass given, called in C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php on line 53
+#0 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(53): CodeIgniter\Database\BaseBuilder->insert(Object(stdClass))
+#1 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(54): App\Models\ProductsModel->insertShoppingCart(Object(stdClass))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->insertShoppingCart()
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-05 17:27:36 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(69): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-05 17:29:35 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(69): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-05 17:30:07 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(69): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-05 17:30:09 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(69): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-05 17:30:25 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(69): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-05 17:30:29 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(69): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-05 17:32:36 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-05-05 17:32:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(65): App\Models\ProductsModel->getCartItems('1')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 17:32:55 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-05-05 17:32:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(65): App\Models\ProductsModel->getCartItems('1')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 17:32:57 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-05-05 17:32:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(65): App\Models\ProductsModel->getCartItems('1')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 17:32:58 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-05-05 17:32:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(65): App\Models\ProductsModel->getCartItems('1')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-05 17:33:00 --> Column 'id' in field list is ambiguous
+CRITICAL - 2022-05-05 17:33:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(65): App\Models\ProductsModel->getCartItems('1')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-05 17:37:01 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(69): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->retrieveCart()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

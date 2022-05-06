@@ -1,0 +1,828 @@
+CRITICAL - 2022-05-04 01:16:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\app-order-api\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\app-order-api\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-04 08:55:37 --> Call to undefined method CodeIgniter\HTTP\Response::setContentTpe()
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('test')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 08:56:01 --> Call to undefined method CodeIgniter\HTTP\Response::setContentTpe()
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('test')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 10:50:42 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:53:13 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:53:43 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:53:44 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:54:44 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:56:22 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:57:39 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:59:20 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 10:59:23 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 11:00:46 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(15): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 11:05:33 --> Not unique table/alias: 'products'
+CRITICAL - 2022-05-04 11:05:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-04 11:05:42 --> Not unique table/alias: 'products'
+CRITICAL - 2022-05-04 11:05:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-04 11:05:58 --> Not unique table/alias: 'products'
+CRITICAL - 2022-05-04 11:05:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 11:14:22 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(16): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 11:18:10 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 C:\xampp\htdocs\app-order-api\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(318): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\app-order-api\system\HTTP\ResponseTrait.php(244): CodeIgniter\HTTP\Response->formatBody(Array, 'json')
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(20): CodeIgniter\HTTP\Response->setJSON(Array)
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 11:20:28 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:21:04 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:22:13 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:23:23 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:24:34 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:24:52 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:25:44 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:26:05 --> Undefined constant "App\Controllers\product_image"
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:02 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:03 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:27 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:28 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:30 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:32 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:34 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-04 11:29:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-order-api\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-04 15:43:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:43:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:43:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:43:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:43:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:43:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:43:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:43:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:43:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:10 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:44:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:44:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:45:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:45:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:45:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:45:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:45:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:45:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:46:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:46:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:46:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:46:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:46:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:46:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 15:46:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 15:46:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-04 23:32:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\app-order-api\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\app-order-api\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-05-04 16:45:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-04 16:45:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\app-order-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app-order-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app-order-api\app\Models\ProductsModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(28): App\Models\ProductsModel->getProductCategories()
+#4 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->productCategories()
+#5 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#6 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-05-04 16:46:46 --> Table 'app_order_db.hot_products' doesn't exist
+CRITICAL - 2022-05-04 16:46:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-04 16:46:54 --> Table 'app_order_db.hot_products' doesn't exist
+CRITICAL - 2022-05-04 16:46:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(12): App\Models\ProductsModel->getHotProducts()
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->hotProducts()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:18:33 --> Undefined property: App\Controllers\Products::$uri
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:19:29 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:19:32 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:19:34 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:20:28 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:20:34 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:20:37 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:20:39 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:21:16 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:21:41 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:22:32 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products('3')
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:23:12 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:23:26 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:23:37 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:23:45 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:24:16 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:26:42 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:26:44 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 19:26:48 --> Undefined property: App\Controllers\Products::$input
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-04 19:33:56 --> Unknown column 'category_id' in 'where clause'
+CRITICAL - 2022-05-04 19:33:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(43): App\Models\ProductsModel->getProductsWithCategories(NULL)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-04 19:34:34 --> Unknown column 'category_id' in 'where clause'
+CRITICAL - 2022-05-04 19:34:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(43): App\Models\ProductsModel->getProductsWithCategories(NULL)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-04 19:35:04 --> Unknown column 'category_id' in 'where clause'
+CRITICAL - 2022-05-04 19:35:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(43): App\Models\ProductsModel->getProductsWithCategories(NULL)
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-04 19:35:10 --> Unknown column 'category_id' in 'where clause'
+CRITICAL - 2022-05-04 19:35:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\app-order-api\app\Controllers\Products.php(43): App\Models\ProductsModel->getProductsWithCategories('1')
+#1 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(832): App\Controllers\Products->products()
+#2 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\app-order-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-order-api\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-order-api\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
