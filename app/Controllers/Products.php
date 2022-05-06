@@ -73,4 +73,30 @@ class Products extends BaseController
       ->setJson($result);
   }
 
+  public function saveOrder(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+    $result = $model->saveOrder($data);
+    $returnBody =[
+      'id' => $result,
+      'message' => 'Success'
+    ];
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($returnBody);
+  }
+
+  public function getOrders(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $status = $this->request->getGet('status');
+
+    $result = $model->getOrders($status);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
+
 }
