@@ -91,7 +91,8 @@ class ProductsModel{
         //'id' => $ordDtl[$key]->id,
         'order_hdr_id' => $hdrId,
         'product_id' => $ordDtl[$key]->product_id,
-        'quantity' => $ordDtl[$key]->quantity
+        'quantity' => $ordDtl[$key]->quantity,
+        'price' =>$ordDtl[$key]->price
       ];
     }
     return $dataDtl;
@@ -184,9 +185,64 @@ class ProductsModel{
     $builder->select('order_hdr.id, 
       order_hdr.total,
       users.first_name, 
-      users.last_name,');
+      users.last_name,
+      order_hdr.user_id');
     $builder->join('users', 'users.id = order_hdr.user_id');
     $builder->where('order_hdr.status',$status);
+    $builder->orderBy('order_hdr.dt_checkout');
+    $query = $builder->get()->getResult();
+    return $query;
+  }
+
+  function getOrdersDetailed($userId){
+    $builder = $this->db->table('order_hdr');
+    $builder->select('order_hdr.id,
+      order_hdr.sub_total,
+      order_hdr.total,
+      order_hdr.discount,
+      order_hdr.status,
+      order_hdr.dt_checkout,
+      order_hdr.dt_queued,
+      order_hdr.dt_served,
+      order_hdr.dt_paid,
+      order_hdr.dt_cancelled,
+      order_dtl.product_id,
+      order_dtl.quantity,
+      order_dtl.price,
+      products.product_name,
+      products.product_image,
+      order_hdr.status');
+    $builder->join('order_dtl','order_dtl.order_hdr_id=order_hdr.id');
+    $builder->join('products','order_dtl.product_id=products.id');
+    $builder->where('order_hdr.user_id', $userId);
+    $builder->orderBy('order_hdr.id','DESC');
+    $query = $builder->get()->getResult();
+
+    return $query;
+  }
+
+  function updateOrderStatus($orderId,$status){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('y-m-d h:i:s');
+
+    $builder = $this->db->table('order_hdr');
+    $builder->set('dt_served',$curDate);
+    $builder->set('status',$status);
+    $builder->where('id', $orderId);
+    return $builder->update();
+  }
+
+  function searchProducts($searchString){
+    $builder = $this->db->table('products');
+    $builder->select('products.id,
+      products.product_name,
+      products.product_category,
+      products.cur_price_a,
+      products.product_image');
+    $builder->join('categories', 'products.product_category = categories.id');
+    $builder->like('products.product_name',$searchString);
+    $builder->orWhere('products.cur_price_a',$searchString);
+    $builder->orLike('categories.category_name',$searchString);
     $query = $builder->get()->getResult();
     return $query;
   }
