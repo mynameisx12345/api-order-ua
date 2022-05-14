@@ -189,7 +189,7 @@ class ProductsModel{
       order_hdr.user_id');
     $builder->join('users', 'users.id = order_hdr.user_id');
     $builder->where('order_hdr.status',$status);
-    $builder->orderBy('order_hdr.dt_checkout');
+    $builder->orderBy('order_hdr.id');
     $query = $builder->get()->getResult();
     return $query;
   }
