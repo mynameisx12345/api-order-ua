@@ -40,10 +40,19 @@ $routes->group('api', function ($routes) {
         $routes->get('products', 'Products::products');
         $routes->post('addToCart','Products::insertShoppingCart');
         $routes->get('retrieveCart', 'Products::retrieveCart');
+        $routes->post('saveOrder', 'Products::saveOrder');
+        $routes->get('searchProducts','Products::searchProducts');
+        
     });
 
     $routes->group('users', function ($routes){
         $routes->post('login','UsersController::login');
+    });
+
+    $routes->group('orders', function ($routes){
+        $routes->get('getOrders','Products::getOrders');
+        $routes->get('getOrdersDetailed', 'Products::getOrdersDetailed');
+        $routes->post('updateOrderStatus', 'Products::updateOrderStatus');
     });
 });
 /*
