@@ -41,6 +41,8 @@ $routes->group('api', function ($routes) {
         $routes->post('addToCart','Products::insertShoppingCart');
         $routes->get('retrieveCart', 'Products::retrieveCart');
         $routes->post('saveOrder', 'Products::saveOrder');
+        $routes->get('searchProducts','Products::searchProducts');
+        
     });
 
     $routes->group('users', function ($routes){
@@ -49,6 +51,8 @@ $routes->group('api', function ($routes) {
 
     $routes->group('orders', function ($routes){
         $routes->get('getOrders','Products::getOrders');
+        $routes->get('getOrdersDetailed', 'Products::getOrdersDetailed');
+        $routes->post('updateOrderStatus', 'Products::updateOrderStatus');
     });
 });
 /*
