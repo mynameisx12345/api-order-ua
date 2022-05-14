@@ -238,12 +238,26 @@ class ProductsModel{
       products.product_name,
       products.product_category,
       products.cur_price_a,
-      products.product_image');
+      products.product_image,
+      categories.category_name');
     $builder->join('categories', 'products.product_category = categories.id');
     $builder->like('products.product_name',$searchString);
     $builder->orWhere('products.cur_price_a',$searchString);
     $builder->orLike('categories.category_name',$searchString);
+    $builder->orderBy('products.id','DESC');
     $query = $builder->get()->getResult();
     return $query;
+  }
+
+  function saveProduct($data){
+    $dataF= [
+      'product_name' => $data->product_name,
+      'product_category' => $data->product_category,
+      'cur_price_a' => $data->price
+    ];
+    $this->db->table('products')
+      ->insert($dataF);
+    $productId = $this->db->insertID();
+    return $productId;
   }
 }
