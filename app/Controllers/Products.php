@@ -202,12 +202,52 @@ class Products extends BaseController
   public function saveProduct(){
     $db = db_connect();
     $model = new ProductsModel($db);
-    $data = $this->request->getJSON();
+    $productName = $this->request->getPost('product_name');
+    $productCategory = $this->request->getPost('product_category');
+    $price = $this->request->getPost('price');
+    $image = $this->request->getFile('product_image');
+    if($image !== null){
+      $image = file_get_contents($image);
+    }
+    $data = [
+      'product_name' => $productName,
+      'product_category' => $productCategory,
+      'cur_price_a' => $price,
+      'product_image' => $image
+    ];
     $productId = $model->saveProduct($data);
     
     return $this->response
       ->setStatusCode(200)
       ->setJson(['id'=>$productId, 'message' =>'Success']);
+  }
+
+  public function saveCategory(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $image = $this->request->getFile('category_image');
+    if($image !== null){
+      $image = file_get_contents($image);
+    }
+    $categoryName = $this->request->getPost('category_name');
+    $data = [
+      'category_name' => $categoryName,
+      'category_image' => $image
+    ];
+    //print_r($data);
+   $categoryId = $model->saveCategory($data);
+
+   $categoryId = 1;
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['id'=>$categoryId, 'message' =>'Success']);
+  }
+
+  public function deleteCategory(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    
   }
 
 

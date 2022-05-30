@@ -250,14 +250,22 @@ class ProductsModel{
   }
 
   function saveProduct($data){
-    $dataF= [
-      'product_name' => $data->product_name,
-      'product_category' => $data->product_category,
-      'cur_price_a' => $data->price
-    ];
     $this->db->table('products')
-      ->insert($dataF);
+      ->insert($data);
     $productId = $this->db->insertID();
     return $productId;
+  }
+
+  function saveCategory($data){
+    $this->db->table('categories')
+      ->insert($data);
+    $categoryId = $this->db->insertID();
+    return $categoryId;
+  }
+
+  function deleteCategory($id){
+   return $this->db->table('categories')
+      ->where('id', $id)
+      ->delete();
   }
 }

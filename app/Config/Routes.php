@@ -43,6 +43,7 @@ $routes->group('api', function ($routes) {
         $routes->post('saveOrder', 'Products::saveOrder');
         $routes->get('searchProducts','Products::searchProducts');
         $routes->post('saveProduct','Products::saveProduct');
+        $routes->post('saveCategory','Products::saveCategory');
         
     });
 
