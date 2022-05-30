@@ -268,4 +268,15 @@ class ProductsModel{
       ->where('id', $id)
       ->delete();
   }
+
+  function addHotProduct($data){
+    $dataF = [
+      'product_id' => $data->product_id
+    ];
+    $this->db->table('hot_products')
+      ->insert($dataF);
+    $hotProductId = $this->db->insertID();
+    return $hotProductId;
+
+  }
 }

@@ -250,5 +250,17 @@ class Products extends BaseController
     
   }
 
+  public function addHotProduct(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+
+    $hotProductId = $model->addHotProduct($data);
+    
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['id'=>$hotProductId, 'message' =>'Success']);
+  }
+
 
 }

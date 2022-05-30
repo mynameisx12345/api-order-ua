@@ -44,6 +44,7 @@ $routes->group('api', function ($routes) {
         $routes->get('searchProducts','Products::searchProducts');
         $routes->post('saveProduct','Products::saveProduct');
         $routes->post('saveCategory','Products::saveCategory');
+        $routes->post('addHotProduct','Products::addHotProduct');
         
     });
 
