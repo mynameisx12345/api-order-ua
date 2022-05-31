@@ -194,7 +194,7 @@ class ProductsModel{
     return $query;
   }
 
-  function getOrdersDetailed($userId){
+  function getOrdersDetailed($userId,$orderId){
     $builder = $this->db->table('order_hdr');
     $builder->select('order_hdr.id,
       order_hdr.sub_total,
@@ -214,7 +214,14 @@ class ProductsModel{
       order_hdr.status');
     $builder->join('order_dtl','order_dtl.order_hdr_id=order_hdr.id');
     $builder->join('products','order_dtl.product_id=products.id');
-    $builder->where('order_hdr.user_id', $userId);
+    if(!empty($orderId)){
+      $builder->where('order_hdr.id', $orderId);
+    }
+   
+    if(!empty($userId)){
+      $builder->where('order_hdr.user_id', $userId);
+    }
+    
     $builder->orderBy('order_hdr.id','DESC');
     $query = $builder->get()->getResult();
 
@@ -226,7 +233,14 @@ class ProductsModel{
     $curDate = date('y-m-d h:i:s');
 
     $builder = $this->db->table('order_hdr');
-    $builder->set('dt_served',$curDate);
+    if($status === 'S'){
+      $builder->set('dt_served',$curDate);
+    }
+
+    if($status === 'P'){
+      $builder->set('dt_paid',$curDate);
+    }
+    
     $builder->set('status',$status);
     $builder->where('id', $orderId);
     return $builder->update();

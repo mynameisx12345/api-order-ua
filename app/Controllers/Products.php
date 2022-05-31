@@ -113,7 +113,10 @@ class Products extends BaseController
     $db = db_connect();
     $model = new ProductsModel($db);
     $userId = $this->request->getGet('userId');
-    $result = $model->getOrdersDetailed($userId);
+    $orderId = $this->request->getGet('orderId');
+    
+
+    $result = $model->getOrdersDetailed($userId,$orderId);
     foreach($result as $key => $res){
       $result[$key]->product_image = base64_encode($result[$key]->product_image);
      }
