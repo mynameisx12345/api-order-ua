@@ -50,6 +50,8 @@ $routes->group('api', function ($routes) {
 
     $routes->group('users', function ($routes){
         $routes->post('login','UsersController::login');
+        $routes->get('getUserList','UsersController::getUserList');
+        $routes->post('addUser','UsersController::addUser');
     });
 
     $routes->group('orders', function ($routes){

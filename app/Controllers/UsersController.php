@@ -22,4 +22,25 @@ class UsersController extends BaseController
         ->setBody('Access Denied');
     }
   }
+
+  public function getUserList(){
+    $db = db_connect();
+    $model = new UsersModel($db);
+
+    $result = $model->getUserList();
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
+
+  public function addUser(){
+    $db = db_connect();
+    $model = new UsersModel($db);
+
+    $data = $this->request->getJSON();
+    $userId = $model->addUser($data);
+    return $this->response 
+        ->setStatusCode(200)
+        ->setJson(['userId'=>$userId, 'message'=>'Success']);
+  }
 }
