@@ -43,17 +43,25 @@ $routes->group('api', function ($routes) {
         $routes->post('saveOrder', 'Products::saveOrder');
         $routes->get('searchProducts','Products::searchProducts');
         $routes->post('saveProduct','Products::saveProduct');
+        $routes->post('saveCategory','Products::saveCategory');
+        $routes->post('addHotProduct','Products::addHotProduct');
         
     });
 
     $routes->group('users', function ($routes){
         $routes->post('login','UsersController::login');
+        $routes->get('getUserList','UsersController::getUserList');
+        $routes->post('addUser','UsersController::addUser');
     });
 
     $routes->group('orders', function ($routes){
         $routes->get('getOrders','Products::getOrders');
         $routes->get('getOrdersDetailed', 'Products::getOrdersDetailed');
         $routes->post('updateOrderStatus', 'Products::updateOrderStatus');
+    });
+
+    $routes->group('reports', function ($routes){
+        $routes->get('reportDailySales','Products::reportDailySales');
     });
 });
 /*
