@@ -265,5 +265,15 @@ class Products extends BaseController
       ->setJson(['id'=>$hotProductId, 'message' =>'Success']);
   }
 
+  public function reportDailySales(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+
+    $result = $model->reportDailySales();
+    return $this->response
+    ->setStatusCode(200)
+    ->setJson($result);
+  }
+
 
 }

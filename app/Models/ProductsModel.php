@@ -293,4 +293,14 @@ class ProductsModel{
     return $hotProductId;
 
   }
+
+  function reportDailySales(){
+    $builder = $this->db->table('order_hdr');
+    $builder->select('DATE(dt_paid) as date,SUM(total) as total');
+    $builder->where('status', 'P');
+    $builder->groupBy('DATE(dt_paid)');
+    $builder->orderBy('DATE(dt_paid)','DESC');
+    $query = $builder->get()->getResult();
+    return $query;
+  }
 }

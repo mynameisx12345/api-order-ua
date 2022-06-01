@@ -59,6 +59,10 @@ $routes->group('api', function ($routes) {
         $routes->get('getOrdersDetailed', 'Products::getOrdersDetailed');
         $routes->post('updateOrderStatus', 'Products::updateOrderStatus');
     });
+
+    $routes->group('reports', function ($routes){
+        $routes->get('reportDailySales','Products::reportDailySales');
+    });
 });
 /*
  * --------------------------------------------------------------------
