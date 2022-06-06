@@ -11,7 +11,11 @@ class ProductsModel{
 
   function getHotProducts(){
     $builder = $this->db->table('hot_products');
-    $builder->select('*');
+    $builder->select('*, 
+    , 
+      (SELECT GROUP_CONCAT(user_id SEPARATOR \',\') FROM likes
+      WHERE product_id = hot_products.product_id
+      GROUP BY product_id) likes');
     $builder->join('products', 'products.id = product_id');
     $query = $builder->get()->getResult();
 
@@ -28,6 +32,29 @@ class ProductsModel{
     $builder = $this->db->table('products');
     $builder->where('product_category', $categoryId);
     $builder->orderBy('product_name');
+    $query = $builder->get()->getResult();
+
+    foreach($query as $key => $res){
+      $query[$key]->product_image = base64_encode($query[$key]->product_image);
+     }
+    return $query;
+  }
+
+  function getProducts($productId, $category){
+    $builder = $this->db->table('products');
+    $builder->select('*, 
+      (SELECT GROUP_CONCAT(user_id SEPARATOR \',\') FROM likes
+      WHERE product_id = products.id
+      GROUP BY product_id) likes');
+    if(!empty($productId)){
+      $builder->where('id', $productId);
+    }
+
+    if(!empty($category)){
+      $builder->where('product_category', $category);
+    }
+
+    
     $query = $builder->get()->getResult();
 
     foreach($query as $key => $res){
@@ -253,7 +280,10 @@ class ProductsModel{
       products.product_category,
       products.cur_price_a,
       products.product_image,
-      categories.category_name');
+      categories.category_name,
+      (SELECT GROUP_CONCAT(user_id SEPARATOR \',\') FROM likes
+      WHERE product_id = products.id
+      GROUP BY product_id) likes');
     $builder->join('categories', 'products.product_category = categories.id');
     $builder->like('products.product_name',$searchString);
     $builder->orWhere('products.cur_price_a',$searchString);
@@ -303,4 +333,48 @@ class ProductsModel{
     $query = $builder->get()->getResult();
     return $query;
   }
+
+  function getSoldToday($productId){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d');
+    $builder = $this->db->table('order_hdr');
+    $builder->select('order_dtl.product_id,
+      SUM(order_dtl.quantity) as quantity');
+    $builder->join('order_dtl','order_dtl.order_hdr_id=order_hdr.id');
+    $builder->where('order_hdr.status','P');
+    $builder->where('DATE(dt_paid)',$curDate);
+    $builder->where('order_dtl.product_id', $productId);
+    $builder->groupBy('order_dtl.product_id');
+
+    $query = $builder->get()->getResult();
+
+    return $query;
+  }
+
+  function like($data){
+    if($data->like === TRUE){
+      $dataF = [
+        'product_id' => $data->product_id,
+        'user_id' => $data->user_id
+      ];
+      $this->db->table('likes')
+        ->insert($dataF);
+    } else {
+      $this->db->table('likes')
+        ->where('user_id',$data->user_id)
+        ->where('product_id', $data->product_id)
+        ->delete();
+    }
+    
+  }
+
+  function getLikes($productId){
+    $builder = $this->db->table('likes');
+    $builder->select('user_id,product_id');
+    $builder->where('product_id',$productId);
+    $builder->groupBy('user_id');
+    $query = $builder->get()->getResult();
+    return $query;
+  }
+
 }

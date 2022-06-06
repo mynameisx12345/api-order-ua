@@ -47,6 +47,21 @@ class Products extends BaseController
       ->setJson($result);
   }
 
+  public function getProducts(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $productId = $this->request->getGet('productId');
+    $category = $this->request->getGet('category');
+
+    $result = $model->getProducts($productId, $category);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
+
+  
+
   public function insertShoppingCart(){
     $db = db_connect();
     $model = new ProductsModel($db);
@@ -273,6 +288,29 @@ class Products extends BaseController
     return $this->response
     ->setStatusCode(200)
     ->setJson($result);
+  }
+
+  public function getSoldToday(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $productId = $this->request->getGet('productId');
+    $result = $model->getSoldToday($productId);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
+
+  public function like(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+    
+    $model->like($data);
+
+    return $this->response
+    ->setStatusCode(200)
+    ->setJson(['message'=>'Success']);
   }
 
 
