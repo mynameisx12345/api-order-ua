@@ -313,5 +313,51 @@ class Products extends BaseController
     ->setJson(['message'=>'Success']);
   }
 
+  public function addComment(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+
+    $id = $model->addComment($data);
+
+    return $this->response
+        ->setStatusCode(200)
+        ->setJson(['message'=>'Success', 'id' => $id]);
+  }
+
+  public function editComment(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+
+    $model->editComment($data);
+
+    return $this->response
+    ->setStatusCode(200)
+    ->setJson(['message'=>'Success']);
+  }
+
+  public function removeComment(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+
+    $model->removeComment($data);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['message'=>'Success']);    
+  }
+
+  public function getComments(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $productId = $this->request->getGet('productId');
+    $result = $model->getComments($productId);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
 
 }

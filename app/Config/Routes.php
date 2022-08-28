@@ -48,7 +48,10 @@ $routes->group('api', function ($routes) {
         $routes->get('getProducts', 'Products::getProducts');
         $routes->get('getSoldToday','Products::getSoldToday');
         $routes->post('like', 'Products::like');
-        
+        $routes->post('addComment', 'Products::addComment');
+        $routes->post('editComment', 'Products::editComment');
+        $routes->post('removeComment', 'Products::removeComment');
+        $routes->get('getComments', 'Products::getComments');
     });
 
     $routes->group('users', function ($routes){

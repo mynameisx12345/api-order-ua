@@ -377,4 +377,60 @@ class ProductsModel{
     return $query;
   }
 
+  function addComment($data){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d h:i:s');
+    $dataF = [
+      'message' => $data->message,
+      'product_id' => $data->product_id,
+      'user_id' => $data->user_id,
+      'dt_created' => $curDate,
+      'dt_modified' => $curDate,
+      'is_removed' => FALSE
+    ];
+    $this->db->table('comments')
+      ->insert($dataF);
+
+    return $this->db->insertID();
+  }
+
+  function editComment($data){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d h:i:s');
+    $builder = $this->db->table('comments');
+    $builder->set('dt_modified', $curDate);
+    $builder->set('message', $data->message);
+    $builder->where('id', $data->id);
+    return $builder->update();
+  }
+
+  function removeComment($data){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d h:i:s');
+    $builder = $this->db->table('comments');
+    $builder->set('dt_removed', $curDate);
+    $builder->set('is_removed', TRUE);
+    $builder->where('id', $data->id);
+    return $builder->update();
+  }
+
+  function getComments($productId){
+    $builder = $this->db->table('comments');
+    $builder->select('
+      comments.id,
+      comments.user_id, 
+      comments.product_id, 
+      comments.message,
+      users.first_name,
+      users.last_name,
+      comments.dt_modified');
+    $builder->join('users','user_id=users.id');
+    $builder->where('comments.product_id',$productId);
+    
+    $builder->where('comments.is_removed', FALSE);
+    $builder->orderBy('comments.dt_created');
+    $query = $builder->get()->getResult();
+    return $query;
+  }
+
 }
