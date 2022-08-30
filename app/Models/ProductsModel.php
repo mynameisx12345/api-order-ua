@@ -11,8 +11,12 @@ class ProductsModel{
 
   function getHotProducts(){
     $builder = $this->db->table('hot_products');
-    $builder->select('*');
-    $builder->join('products', 'products.id = product_id');
+    $builder->select('*, 
+    , 
+      (SELECT GROUP_CONCAT(user_id SEPARATOR \',\') FROM likes
+      WHERE product_id = hot_products.product_id
+      GROUP BY product_id) likes');
+      $builder->join('products', 'products.id = product_id');
     $query = $builder->get()->getResult();
 
     return $query;
@@ -28,6 +32,29 @@ class ProductsModel{
     $builder = $this->db->table('products');
     $builder->where('product_category', $categoryId);
     $builder->orderBy('product_name');
+    $query = $builder->get()->getResult();
+
+    foreach($query as $key => $res){
+      $query[$key]->product_image = base64_encode($query[$key]->product_image);
+     }
+    return $query;
+  }
+
+  function getProducts($productId, $category){
+    $builder = $this->db->table('products');
+    $builder->select('*, 
+      (SELECT GROUP_CONCAT(user_id SEPARATOR \',\') FROM likes
+      WHERE product_id = products.id
+      GROUP BY product_id) likes');
+    if(!empty($productId)){
+      $builder->where('id', $productId);
+    }
+
+    if(!empty($category)){
+      $builder->where('product_category', $category);
+    }
+
+    
     $query = $builder->get()->getResult();
 
     foreach($query as $key => $res){
@@ -102,7 +129,7 @@ class ProductsModel{
     //$this->db->trans_start();
 
     date_default_timezone_set('Asia/Singapore');
-    $curDate = date('y-m-d h:i:s');
+    $curDate = date('y-m-d H:i:s');
     if($data->status === "Q"){
       $data->dt_queued = $curDate;
       if($data->dt_checkout == null){
@@ -186,7 +213,8 @@ class ProductsModel{
       order_hdr.total,
       users.first_name, 
       users.last_name,
-      order_hdr.user_id');
+      order_hdr.user_id,
+      order_hdr.dt_queued');
     $builder->join('users', 'users.id = order_hdr.user_id');
     $builder->where('order_hdr.status',$status);
     $builder->orderBy('order_hdr.id');
@@ -230,7 +258,7 @@ class ProductsModel{
 
   function updateOrderStatus($orderId,$status){
     date_default_timezone_set('Asia/Singapore');
-    $curDate = date('y-m-d h:i:s');
+    $curDate = date('y-m-d H:i:s');
 
     $builder = $this->db->table('order_hdr');
     if($status === 'S'){
@@ -253,7 +281,10 @@ class ProductsModel{
       products.product_category,
       products.cur_price_a,
       products.product_image,
-      categories.category_name');
+      categories.category_name,
+      (SELECT GROUP_CONCAT(user_id SEPARATOR \',\') FROM likes
+      WHERE product_id = products.id
+      GROUP BY product_id) likes');
     $builder->join('categories', 'products.product_category = categories.id');
     $builder->like('products.product_name',$searchString);
     $builder->orWhere('products.cur_price_a',$searchString);
@@ -303,4 +334,124 @@ class ProductsModel{
     $query = $builder->get()->getResult();
     return $query;
   }
+
+  function getSoldToday($productId){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d');
+    $builder = $this->db->table('order_hdr');
+    $builder->select('order_dtl.product_id,
+      SUM(order_dtl.quantity) as quantity');
+    $builder->join('order_dtl','order_dtl.order_hdr_id=order_hdr.id');
+    $builder->where('order_hdr.status','P');
+    $builder->where('DATE(dt_paid)',$curDate);
+    $builder->where('order_dtl.product_id', $productId);
+    $builder->groupBy('order_dtl.product_id');
+
+    $query = $builder->get()->getResult();
+
+    return $query;
+  }
+
+  function like($data){
+    if($data->like === TRUE){
+      $dataF = [
+        'product_id' => $data->product_id,
+        'user_id' => $data->user_id
+      ];
+      $this->db->table('likes')
+        ->insert($dataF);
+    } else {
+      $this->db->table('likes')
+        ->where('user_id',$data->user_id)
+        ->where('product_id', $data->product_id)
+        ->delete();
+    }
+    
+  }
+
+  function getLikes($productId){
+    $builder = $this->db->table('likes');
+    $builder->select('user_id,product_id');
+    $builder->where('product_id',$productId);
+    $builder->groupBy('user_id');
+    $query = $builder->get()->getResult();
+    return $query;
+  }
+
+  function addComment($data){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d H:i:s');
+    $dataF = [
+      'message' => $data->message,
+      'product_id' => $data->product_id,
+      'user_id' => $data->user_id,
+      'dt_created' => $curDate,
+      'dt_modified' => $curDate,
+      'is_removed' => FALSE
+    ];
+    $this->db->table('comments')
+      ->insert($dataF);
+
+    return $this->db->insertID();
+  }
+
+  function editComment($data){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d H:i:s');
+    $builder = $this->db->table('comments');
+    $builder->set('dt_modified', $curDate);
+    $builder->set('message', $data->message);
+    $builder->where('id', $data->id);
+    return $builder->update();
+  }
+
+  function removeComment($data){
+    date_default_timezone_set('Asia/Singapore');
+    $curDate = date('Y-m-d H:i:s');
+    $builder = $this->db->table('comments');
+    $builder->set('dt_removed', $curDate);
+    $builder->set('is_removed', TRUE);
+    $builder->where('id', $data->id);
+    return $builder->update();
+  }
+
+  function getComments($productId){
+    $builder = $this->db->table('comments');
+    $builder->select('
+      comments.id,
+      comments.user_id, 
+      comments.product_id, 
+      comments.message,
+      users.first_name,
+      users.last_name,
+      comments.dt_modified');
+    $builder->join('users','user_id=users.id');
+    $builder->where('comments.product_id',$productId);
+    
+    $builder->where('comments.is_removed', FALSE);
+    $builder->orderBy('comments.dt_created');
+    $query = $builder->get()->getResult();
+    return $query;
+  }
+
+  function removeCategory($catId){
+    $builder = $this->db->table('products');
+    $builder->where('product_category', $catId);
+    $query = $builder->get()->getResult();
+
+    if(count($query) > 0){
+      return false;
+    }
+    $this->db->table('categories')
+      ->where('id', $catId)
+      ->delete();
+    return true;
+  }
+
+  function removeHot($id){
+    $this->db->table('hot_products')
+      ->where('product_id', $id)
+      ->delete();
+  }
+
 }

@@ -45,13 +45,22 @@ $routes->group('api', function ($routes) {
         $routes->post('saveProduct','Products::saveProduct');
         $routes->post('saveCategory','Products::saveCategory');
         $routes->post('addHotProduct','Products::addHotProduct');
-        
+        $routes->get('getProducts', 'Products::getProducts');
+        $routes->get('getSoldToday','Products::getSoldToday');
+        $routes->post('like', 'Products::like');
+        $routes->post('addComment', 'Products::addComment');
+        $routes->post('editComment', 'Products::editComment');
+        $routes->post('removeComment', 'Products::removeComment');
+        $routes->get('getComments', 'Products::getComments');
+        $routes->get('removeCategory', 'Products::removeCategory');
+        $routes->get('removeHot', 'Products::removeHot');
     });
 
     $routes->group('users', function ($routes){
         $routes->post('login','UsersController::login');
         $routes->get('getUserList','UsersController::getUserList');
         $routes->post('addUser','UsersController::addUser');
+        $routes->post('updateUser','UsersController::updateUser');
     });
 
     $routes->group('orders', function ($routes){
