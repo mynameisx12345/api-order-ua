@@ -18,3 +18,6 @@ CREATE TABLE likes (
     is_removed BOOLEAN,
     dt_removed DATETIME
 );
+
+ALTER TABLE users 
+ADD is_approved BOOLEAN DEFAULT TRUE

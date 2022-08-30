@@ -360,4 +360,35 @@ class Products extends BaseController
       ->setJson($result);
   }
 
+  public function removeCategory(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $catId = $this->request->getGet('catId');
+
+    $result = $model->removeCategory($catId);
+    if(!$result){
+      return $this->response
+      ->setStatusCode(500)
+      ->setJson(['message'=>'Category is being used']);
+    }
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['message'=>'Success']);
+    
+  }
+
+  public function removeHot(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $id = $this->request->getGet('id');
+
+    $model->removeHot($id);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['message'=>'Success']);
+
+  }
+
 }

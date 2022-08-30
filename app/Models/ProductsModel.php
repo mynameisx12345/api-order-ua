@@ -16,7 +16,7 @@ class ProductsModel{
       (SELECT GROUP_CONCAT(user_id SEPARATOR \',\') FROM likes
       WHERE product_id = hot_products.product_id
       GROUP BY product_id) likes');
-    $builder->join('products', 'products.id = product_id');
+      $builder->join('products', 'products.id = product_id');
     $query = $builder->get()->getResult();
 
     return $query;
@@ -129,7 +129,7 @@ class ProductsModel{
     //$this->db->trans_start();
 
     date_default_timezone_set('Asia/Singapore');
-    $curDate = date('y-m-d h:i:s');
+    $curDate = date('y-m-d H:i:s');
     if($data->status === "Q"){
       $data->dt_queued = $curDate;
       if($data->dt_checkout == null){
@@ -213,7 +213,8 @@ class ProductsModel{
       order_hdr.total,
       users.first_name, 
       users.last_name,
-      order_hdr.user_id');
+      order_hdr.user_id,
+      order_hdr.dt_queued');
     $builder->join('users', 'users.id = order_hdr.user_id');
     $builder->where('order_hdr.status',$status);
     $builder->orderBy('order_hdr.id');
@@ -257,7 +258,7 @@ class ProductsModel{
 
   function updateOrderStatus($orderId,$status){
     date_default_timezone_set('Asia/Singapore');
-    $curDate = date('y-m-d h:i:s');
+    $curDate = date('y-m-d H:i:s');
 
     $builder = $this->db->table('order_hdr');
     if($status === 'S'){
@@ -379,7 +380,7 @@ class ProductsModel{
 
   function addComment($data){
     date_default_timezone_set('Asia/Singapore');
-    $curDate = date('Y-m-d h:i:s');
+    $curDate = date('Y-m-d H:i:s');
     $dataF = [
       'message' => $data->message,
       'product_id' => $data->product_id,
@@ -396,7 +397,7 @@ class ProductsModel{
 
   function editComment($data){
     date_default_timezone_set('Asia/Singapore');
-    $curDate = date('Y-m-d h:i:s');
+    $curDate = date('Y-m-d H:i:s');
     $builder = $this->db->table('comments');
     $builder->set('dt_modified', $curDate);
     $builder->set('message', $data->message);
@@ -406,7 +407,7 @@ class ProductsModel{
 
   function removeComment($data){
     date_default_timezone_set('Asia/Singapore');
-    $curDate = date('Y-m-d h:i:s');
+    $curDate = date('Y-m-d H:i:s');
     $builder = $this->db->table('comments');
     $builder->set('dt_removed', $curDate);
     $builder->set('is_removed', TRUE);
@@ -431,6 +432,26 @@ class ProductsModel{
     $builder->orderBy('comments.dt_created');
     $query = $builder->get()->getResult();
     return $query;
+  }
+
+  function removeCategory($catId){
+    $builder = $this->db->table('products');
+    $builder->where('product_category', $catId);
+    $query = $builder->get()->getResult();
+
+    if(count($query) > 0){
+      return false;
+    }
+    $this->db->table('categories')
+      ->where('id', $catId)
+      ->delete();
+    return true;
+  }
+
+  function removeHot($id){
+    $this->db->table('hot_products')
+      ->where('product_id', $id)
+      ->delete();
   }
 
 }
