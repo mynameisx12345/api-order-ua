@@ -47,6 +47,21 @@ class Products extends BaseController
       ->setJson($result);
   }
 
+  public function getProducts(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $productId = $this->request->getGet('productId');
+    $category = $this->request->getGet('category');
+
+    $result = $model->getProducts($productId, $category);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
+
+  
+
   public function insertShoppingCart(){
     $db = db_connect();
     $model = new ProductsModel($db);
@@ -275,5 +290,105 @@ class Products extends BaseController
     ->setJson($result);
   }
 
+  public function getSoldToday(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $productId = $this->request->getGet('productId');
+    $result = $model->getSoldToday($productId);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
+
+  public function like(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+    
+    $model->like($data);
+
+    return $this->response
+    ->setStatusCode(200)
+    ->setJson(['message'=>'Success']);
+  }
+
+  public function addComment(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+
+    $id = $model->addComment($data);
+
+    return $this->response
+        ->setStatusCode(200)
+        ->setJson(['message'=>'Success', 'id' => $id]);
+  }
+
+  public function editComment(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+
+    $model->editComment($data);
+
+    return $this->response
+    ->setStatusCode(200)
+    ->setJson(['message'=>'Success']);
+  }
+
+  public function removeComment(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $data = $this->request->getJSON();
+
+    $model->removeComment($data);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['message'=>'Success']);    
+  }
+
+  public function getComments(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $productId = $this->request->getGet('productId');
+    $result = $model->getComments($productId);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson($result);
+  }
+
+  public function removeCategory(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $catId = $this->request->getGet('catId');
+
+    $result = $model->removeCategory($catId);
+    if(!$result){
+      return $this->response
+      ->setStatusCode(500)
+      ->setJson(['message'=>'Category is being used']);
+    }
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['message'=>'Success']);
+    
+  }
+
+  public function removeHot(){
+    $db = db_connect();
+    $model = new ProductsModel($db);
+    $id = $this->request->getGet('id');
+
+    $model->removeHot($id);
+
+    return $this->response
+      ->setStatusCode(200)
+      ->setJson(['message'=>'Success']);
+
+  }
 
 }
